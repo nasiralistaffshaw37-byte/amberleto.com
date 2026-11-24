@@ -1,0 +1,408 @@
+[17-Mar-2026 23:34:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /home/amberleto/public_html/wp-content/plugins/elementor/modules/ai/module.php:351
+Stack trace:
+#0 /home/amberleto/public_html/wp-includes/class-wp-hook.php(341): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /home/amberleto/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#2 /home/amberleto/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /home/amberleto/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 351
+[17-Mar-2026 23:36:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /home/amberleto/public_html/wp-content/plugins/elementor/modules/ai/module.php:351
+Stack trace:
+#0 /home/amberleto/public_html/wp-includes/class-wp-hook.php(341): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /home/amberleto/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#2 /home/amberleto/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /home/amberleto/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 351
+[04-Jul-2026 03:29:12 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[04-Jul-2026 03:29:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[05-Jul-2026 13:38:19 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[05-Jul-2026 13:38:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[06-Jul-2026 03:31:19 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[06-Jul-2026 03:31:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[06-Jul-2026 12:33:29 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[06-Jul-2026 12:33:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[06-Jul-2026 12:33:30 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[06-Jul-2026 12:33:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[06-Jul-2026 12:33:30 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[06-Jul-2026 12:33:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[07-Jul-2026 03:34:11 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[07-Jul-2026 03:34:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[08-Jul-2026 03:38:16 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[08-Jul-2026 03:38:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[09-Jul-2026 03:41:33 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[09-Jul-2026 03:41:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[09-Jul-2026 14:42:17 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[09-Jul-2026 14:42:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[10-Jul-2026 03:43:19 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[10-Jul-2026 03:43:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[11-Jul-2026 03:47:05 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[11-Jul-2026 03:47:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[12-Jul-2026 03:52:00 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[12-Jul-2026 03:52:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[13-Jul-2026 03:53:58 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[13-Jul-2026 03:53:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[13-Jul-2026 12:33:49 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[13-Jul-2026 12:33:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[13-Jul-2026 12:33:49 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[13-Jul-2026 12:33:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[13-Jul-2026 12:33:49 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[13-Jul-2026 12:33:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[14-Jul-2026 03:58:49 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[14-Jul-2026 03:58:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[15-Jul-2026 03:59:28 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[15-Jul-2026 03:59:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[15-Jul-2026 17:04:05 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[15-Jul-2026 17:04:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[15-Jul-2026 17:04:06 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[15-Jul-2026 17:04:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 06:52:04 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 06:52:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 07:29:57 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 07:29:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 07:29:58 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 07:29:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 07:29:59 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 07:29:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 07:30:01 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 07:30:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 13:27:17 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 13:27:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 15:10:28 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 15:10:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/install.php(35): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 22:34:02 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 22:34:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 23:49:59 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[16-Jul-2026 23:49:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[17-Jul-2026 04:09:07 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[17-Jul-2026 04:09:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[17-Jul-2026 20:28:32 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[17-Jul-2026 20:28:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[18-Jul-2026 13:10:07 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[18-Jul-2026 13:10:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 04:14:27 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 04:14:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 04:37:47 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 04:37:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/update.php(16): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 04:37:53 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 04:37:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-post.php(17): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 04:37:57 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 04:37:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 16:52:55 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[19-Jul-2026 16:52:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 04:26:58 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 04:26:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 12:32:22 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 12:32:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 12:32:22 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 12:32:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 12:32:22 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 12:32:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin-ajax.php(22): require_once('/home/amberleto...')
+#3 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:32:09 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:32:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:32:12 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:32:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:32:18 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:32:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:32:18 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:32:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:34:13 UTC] PHP Warning:  require(/home/amberleto/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home/amberleto/public_html/wp-settings.php on line 34
+[20-Jul-2026 15:34:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amberleto/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/amberleto/public_html/wp-settings.php:34
+Stack trace:
+#0 /home/amberleto/public_html/wp-config.php(102): require_once()
+#1 /home/amberleto/public_html/wp-load.php(50): require_once('/home/amberleto...')
+#2 /home/amberleto/public_html/wp-admin/admin.php(35): require_once('/home/amberleto...')
+#3 /home/amberleto/public_html/wp-admin/index.php(10): require_once('/home/amberleto...')
+#4 {main}
+  thrown in /home/amberleto/public_html/wp-settings.php on line 34
